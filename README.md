@@ -23,14 +23,14 @@ Each of these indexes, except for Flesch Reading Ease, produces a number which e
 
 To calculate these formulas, several pieces of information were collected from the text:
 
-  1. total words
-  1. total sentences
-  1. total syllables
-  1. total letters
-  1. total complex words (words with three or more syllables)
-  1. average words per sentence
-  1. average syllables per words
-  1. average letters per word
+  1. Total words
+  1. Total sentences
+  1. Total syllables
+  1. Total letters
+  1. Total complex words (words with three or more syllables)
+  1. Average words per sentence
+  1. Average syllables per words
+  1. Average letters per word
 
 ### MySQL
 The database for this program is comprised of three tables.  The SQL for each table can be viewed in the MySQL folder.
