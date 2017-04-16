@@ -2,7 +2,7 @@
 This program computes a .txt files readability, a metric to determine how difficult a text is to understand, and stores the results in a MySQL database for comparison.  
 
 ## Example Gif
-One Moment Please.
+![Usage Gif](ReadabilityVideo.gif)
 
 ## About This Project
 ### Inception
