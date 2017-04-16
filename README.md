@@ -48,11 +48,4 @@ Once the database is populated, the user has a few options:
 
 
 ## Outside Resources
-I used the optimized syllable dictionary from Troy Watson's GitHub page in my SyllableDetector class.
-
-Lawrence Style Checker Repository:
-https://github.com/troywatson/Lawrence-Style-Checker
-
-Optimized Syllable Dictionary:
-https://github.com/troywatson/Lawrence-Style-Checker/blob/master/dict/syllables-optimized-list.txt
- 
+I used the [optimized syllable dictionary](https://github.com/troywatson/Lawrence-Style-Checker/blob/master/dict/syllables-optimized-list.txt) from [Troy Watson's GitHub page](https://github.com/troywatson/Lawrence-Style-Checker) in my SyllableDetector class.
