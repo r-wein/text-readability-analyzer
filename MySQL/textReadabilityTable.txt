@@ -1,0 +1,14 @@
+CREATE TABLE `textReadability` (
+  `readabilityID` 		mediumint(9) NOT NULL AUTO_INCREMENT,
+  `analysisID` 			mediumint(9) NOT NULL,
+  `fleschReadingEase` 		float DEFAULT NULL,
+  `fleschKincaidGradeLevel` 	float DEFAULT NULL,
+  `GunningFog` 			float DEFAULT NULL,
+  `ColemanLiau` 		float DEFAULT NULL,
+  `SMOG` 			float DEFAULT NULL,
+  `automatedReadingEase` 	float DEFAULT NULL,
+  `averageReadability` 		float DEFAULT NULL,
+  PRIMARY KEY (`readabilityID`),
+  KEY `analysisID` (`analysisID`),
+  CONSTRAINT `textreadability_ibfk_2` FOREIGN KEY (`analysisID`) REFERENCES `textstatistics` (`analysisID`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

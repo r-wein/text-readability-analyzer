@@ -1,0 +1,16 @@
+CREATE TABLE `textstatistics` (
+  `analysisID` 		mediumint(9) NOT NULL AUTO_INCREMENT,
+  `textID` 		mediumint(9) NOT NULL,
+  `words` 		int(11) DEFAULT NULL,
+  `sentences` 		int(11) DEFAULT NULL,
+  `characters` 		int(11) DEFAULT NULL,
+  `syllables` 		int(11) DEFAULT NULL,
+  `complexWords` 	int(11) DEFAULT NULL,
+  `uniqueWords` 	int(11) DEFAULT NULL,
+  `wordPerSentence` 	float 	DEFAULT NULL,
+  `syllablesPerWord` 	float 	DEFAULT NULL,
+  `charactersPerWord` 	float 	DEFAULT NULL,
+  PRIMARY KEY (`analysisID`),
+  KEY `textID` (`textID`),
+  CONSTRAINT `textstatistics_ibfk_1` FOREIGN KEY (`textID`) REFERENCES `text` (`textID`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
