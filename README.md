@@ -9,7 +9,7 @@ One Moment Please.
 This project is an extension of one of my classroom assignments (I'm a graduate student at the University of St. Thomas).  We were tasked to find each unique word in Lewis Carroll's Alice in Wonderland and record their frequency.  While working on this assignment, which was originally in Python, I had the idea to expand on the basic requirements by adding readability tests and MySQL.  I decided to switch from Python to Java because I wanted to try out JDBC.
 
 
-### Readability Tests
+### Text Readability
 This program calculates six readability indexes:
 
   1. Flesch Reading Ease
