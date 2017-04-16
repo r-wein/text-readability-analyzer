@@ -1,7 +1,7 @@
 # READABILITY
 This program computes a .txt file's readability, a metric to determine how difficult a text is to understand, and stores the results in a MySQL database for comparison.  
 
-## Example Gif
+## Program Sample
 ![Usage Gif](ReadabilityVideo.gif)
 
 ## About This Project
