@@ -6,7 +6,7 @@ This program computes a .txt file's readability, a metric to determine how diffi
 
 ## About This Project
 ### Origin
-This project is an extension of one of my classroom assignments (I'm a graduate student at the University of St. Thomas).  We were tasked to find each unique word in Lewis Carroll's *Alice in Wonderland* and record their frequency.  While working on this assignment, which was originally in Python, I had the idea to expand on the basic requirements by adding readability tests and MySQL.  I decided to switch from Python to Java because I wanted to try JDBC.
+This project is an extension of one of my classroom assignments (I'm a graduate student at the University of St. Thomas in St. Paul, MN).  We were tasked to find each unique word in Lewis Carroll's *Alice in Wonderland* and record their frequency.  While working on this assignment, which was originally in Python, I had the idea to expand on the basic requirements by adding readability tests and MySQL.  I decided to switch from Python to Java because I wanted to try JDBC.
 
 
 ### Text Readability
@@ -36,12 +36,12 @@ To calculate these formulas, several pieces of information were collected from t
 The database for this program is comprised of three tables.  The SQL for each table can be viewed in the MySQL folder.
 
 ### Functionality
-I wanted to keep it simple.  The goal of this project was an introduction to JDBC so I decided to only retrieve an average of each text's readability values (excluding Flesch Reading Ease).  Through a basic command line interface, the program prompts the user to supply a file path for a directory containing .txt files.  From there, the program will read in each file, analyze, and put the data into the database.  
+I wanted to keep it simple.  The goal of this project was an introduction to JDBC so I decided to only retrieve an average of each text's readability values (excluding Flesch Reading Ease).  Through a basic command line interface, the program prompts the user to supply a file path for a directory containing .txt files.  Once a file path is given, the program will read in each .txt file within that directory, analyze, and then put the results into the database.  
 
 Once the database is populated, the user has a few options:  
   1. They can view an ordered list of all the results 
   1. They can view an ordered list of the most difficult texts to read (user sets list size) 
-  1. They can view an ordered list of the least difficut texts to read (user sets list size)
+  1. They can view an ordered list of the least difficult texts to read (user sets list size)
   1. They can view two ordered lists; one of the most difficult and one of the least difficult (user sets list size)
   1. They can delete an entry from the database
   1. They can delete the entire database
