@@ -12,14 +12,14 @@ This project is an extension of one of my classroom assignments (I'm a graduate 
 ### Text Readability
 This program calculates six readability indexes:
 
-  1. Flesch Reading Ease
-  1. Flesch-Kincaid Grade Level
-  1. Gunning Fog
-  1. Coleman-Laiu
-  1. SMOG (Simple Measure of Gobbledygook)
-  1. Automated Readability
+  1. [Flesch Reading Ease](https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests)
+  1. [Flesch-Kincaid Grade Level](https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests)
+  1. [Gunning Fog](https://en.wikipedia.org/wiki/Gunning_fog_index)
+  1. [Coleman-Liau](https://en.wikipedia.org/wiki/Coleman–Liau_index)
+  1. [SMOG (Simple Measure of Gobbledygook)](https://en.wikipedia.org/wiki/SMOG)
+  1. [Automated Readability](https://en.wikipedia.org/wiki/Automated_readability_index)
   
-Each of these indexes, except for Flesch Reading Ease, produces a number which estimates the number of years of formal education a person would require to fully understand the text on first reading.  Flesh Reading Ease produces a score out of 100 where the lower the value, the more difficult the text is considered.    
+Each of these indexes, except for Flesch Reading Ease, produces a number which estimates the number of years of formal education a person would require to fully understand the text on first reading.  Flesh Reading Ease produces a score out of 100 where the lower the value, the more difficult the text.    
 
 To calculate these formulas, several pieces of information were collected from the text:
 
