@@ -1,12 +1,12 @@
 # READABILITY
-This program computes a .txt file's readability, a metric to determine how difficult a text is to understand, and stores the results in a MySQL database for comparison.  
+This program computes a .txt file's readability, a metric to determine how difficult a text is to understand, and stores the result in a MySQL database for comparison.  
 
 ## Program Sample
 ![Usage Gif](ReadabilityVideo.gif)
 
 ## About This Project
 ### Origin
-This project is an extension of one of my classroom assignments (I'm a graduate student at the University of St. Thomas).  We were tasked to find each unique word in Lewis Carroll's Alice in Wonderland and record their frequency.  While working on this assignment, which was originally in Python, I had the idea to expand on the basic requirements by adding readability tests and MySQL.  I decided to switch from Python to Java because I wanted to try out JDBC.
+This project is an extension of one of my classroom assignments (I'm a graduate student at the University of St. Thomas).  We were tasked to find each unique word in Lewis Carroll's Alice in Wonderland and record their frequency.  While working on this assignment, which was originally in Python, I had the idea to expand on the basic requirements by adding readability tests and MySQL.  I decided to switch from Python to Java because I wanted to try JDBC.
 
 
 ### Text Readability
@@ -48,7 +48,7 @@ Once the database is populated, the user has a few options:
 
 
 ## Outside Resources
-I used the [optimized syllable dictionary](https://github.com/troywatson/Lawrence-Style-Checker/blob/master/dict/syllables-optimized-list.txt) from [Troy Watson's GitHub page](https://github.com/troywatson/Lawrence-Style-Checker) in my SyllableDetector class.
+I used the [optimized syllable dictionary](https://github.com/troywatson/Lawrence-Style-Checker/blob/master/dict/syllables-optimized-list.txt) from [Troy Watson](https://github.com/troywatson/Lawrence-Style-Checker) in my SyllableDetector class.
 
 ## Sample Texts
 I used a combination of [The Open Library](https://openlibrary.org) and [The Internet Classics Archive](http://classics.mit.edu/Browse/index.html) for my text samples in the example above.
