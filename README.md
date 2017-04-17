@@ -49,3 +49,6 @@ Once the database is populated, the user has a few options:
 
 ## Outside Resources
 I used the [optimized syllable dictionary](https://github.com/troywatson/Lawrence-Style-Checker/blob/master/dict/syllables-optimized-list.txt) from [Troy Watson's GitHub page](https://github.com/troywatson/Lawrence-Style-Checker) in my SyllableDetector class.
+
+## Sample Texts
+I used a combination of [The Open Library](https://openlibrary.org) and [The Internet Classics Archive](http://classics.mit.edu/Browse/index.html) for my text samples in the example above.
