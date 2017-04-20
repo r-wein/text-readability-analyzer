@@ -1,4 +1,4 @@
-# READABILITY
+# READABILITY AND MYSQL
 This program computes a .txt file's readability, a metric to determine how difficult a text is to understand, and stores the result in a MySQL database for comparison.  
 
 ## Sample Output
