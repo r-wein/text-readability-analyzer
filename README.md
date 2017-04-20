@@ -37,9 +37,6 @@ private void addToReadability_TextReadability(TextAnalysis data, int idNumber) t
 ### Origin
 This project is an extension of one of my classroom assignments.  We were tasked to find each unique word in Lewis Carroll's *Alice in Wonderland* and record their frequency.  While working on this assignment, which was originally in Python, I had the idea to expand on the basic requirements by adding readability tests and MySQL.  I decided to switch from Python to Java because I wanted to try JDBC.
 
-### Installation
-You could clone this repository, but that is not what this project is meant for.  This repository is merely an example of work. Visit my [readability](https://github.com/rossweinstein/readability) repository to get the code without the database and command line interface.
-
 ### Text Readability
 This program calculates six readability indexes:
 
