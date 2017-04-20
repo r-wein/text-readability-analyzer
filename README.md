@@ -64,7 +64,7 @@ To calculate these formulas, several pieces of information were collected from t
   1. Average letters per word
 
 ### MySQL
-The database for this program is comprised of three tables.  The SQL for each table can be viewed in the MySQL folder.
+The database for this program is comprised of three tables.  The SQL for each table can be viewed in the [MySQL](https://github.com/rossweinstein/text-readability-analyzer/tree/master/MySQL) folder.
 
 ### How To Use
 I wanted to keep it simple.  The goal of this project was an introduction to JDBC so I decided to only retrieve an average of each text's readability values (excluding Flesch Reading Ease).  Through a basic command line interface, the program prompts the user to supply a file path for a directory containing .txt files.  Once a file path is given, the program will read in each .txt file within that directory, analyze, and then put the results into the database.  
